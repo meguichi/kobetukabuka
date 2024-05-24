@@ -88,7 +88,12 @@ def plot_rsi():
     ax.legend(loc='best')
     ax.set_title('RSI')
     st.pyplot(fig)
-
+ad_code = """
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5375032594935578"
+     crossorigin="anonymous"></script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+"""
 # グラフの表示
 st.header(f'Stock Analysis for {ticker_info}')
 plot_moving_average()

@@ -16,9 +16,10 @@ def get_ads_txt():
 if 'ads.txt' in st.experimental_get_query_params():
     st.write(get_ads_txt())
 else:
-# Streamlitの設定
+    # Streamlitの設定
 st.title('Stock Analysis App')
 st.sidebar.header('User Input')
+
 
 # ユーザー入力
 ticker_info = st.sidebar.text_input('Ticker Symbol (e.g., 4755 for 4755.T)', '1489')

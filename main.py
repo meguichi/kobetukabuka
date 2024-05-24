@@ -99,8 +99,6 @@ st.markdown(
 
 
 
-<meta name="google-adsense-account" content="ca-pub-5375032594935578">
-
 ad_code = """
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5375032594935578"
      crossorigin="anonymous"></script>

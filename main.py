@@ -10,7 +10,7 @@ st.title('Stock Analysis App')
 st.sidebar.header('User Input')
 
 # ユーザー入力
-ticker_info = st.sidebar.text_input('Ticker Symbol (e.g., 4755 for 4755.T)', '4755')
+ticker_info = st.sidebar.text_input('Ticker Symbol (e.g., 4755 for 4755.T)', '1489')
 ticker_info = ticker_info + '.T'
 
 

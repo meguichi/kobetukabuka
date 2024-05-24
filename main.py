@@ -92,10 +92,11 @@ def plot_rsi():
 # Google AdSenseの所有権確認用メタタグ
 st.markdown(
     """
-    <meta name="google-adsense-account" content="ca-pub-5375032594935578">
+    <meta name="google-adsense-account" content="ca-pub-5375032594935578" />
     """,
     unsafe_allow_html=True
 )
+
 
 
 <meta name="google-adsense-account" content="ca-pub-5375032594935578">

@@ -1,10 +1,21 @@
 import streamlit as st
+import streamlit.components.v1 as components
 import yfinance as yf
 import datetime
 import matplotlib.pyplot as plt
 from scipy.stats import linregress
 import numpy as np
+import os
+# ads.txtの提供
+@st.experimental_singleton
+def get_ads_txt():
+    ads_txt_path = os.path.join(os.path.dirname(__file__), 'ads.txt')
+    with open(ads_txt_path) as f:
+        return f.read()
 
+if 'ads.txt' in st.experimental_get_query_params():
+    st.write(get_ads_txt())
+else:
 # Streamlitの設定
 st.title('Stock Analysis App')
 st.sidebar.header('User Input')
